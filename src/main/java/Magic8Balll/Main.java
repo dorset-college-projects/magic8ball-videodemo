@@ -7,7 +7,7 @@ package Magic8Balll;
 import java.util.Random;
 /**
  *
- * @author John
+ * @author John Rowley
  */
 public class Main {
 
@@ -21,7 +21,7 @@ public class Main {
 "Concentrate and ask again", "Don't count on it", "My reply is no", "My sources say no",
 "Outlook not so good", "Very doubtful"};
 
-Random answer = new Random();
+Random answer = new Random(); // ignore this error
 int answer1 = answer.nextInt(ball8.length);
 
 System.out.println(ball8[answer1]);
